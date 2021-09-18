@@ -1,2 +1,3 @@
-![Maynooth Furniture](./src/media/logo_light.svg)
+![Maynooth Furniture](./src/media/doc_logo.svg)
+
 documentation to be added later
