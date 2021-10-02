@@ -1,2 +1,32 @@
 /* This stylesheet is specific to Home screen  */
 
+.showcase{
+  background: url('../../../media/home-showcase.jpg') no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.showcase  > :not(.overlay){
+  z-index: 10;
+  position: relative;
+}
+.showcase .overlay{
+  content: '';
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+}
+
+.showcase .dummySearch{
+  width: 720px;
+  transition: all 200ms ease-in;
+}
+
+.showcase input::placeholder{
+  font-weight: 300;
+  opacity: 0.6;
+}

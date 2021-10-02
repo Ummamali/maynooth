@@ -12,8 +12,6 @@ import Details from './Screens/Details/Details';
 
 export default function App() {
   return (
-    <>
-      <Nav />
       <Switch>
         <Route exact path="/">
           <Home />
@@ -31,6 +29,5 @@ export default function App() {
           <p>This route does not exists</p>
         </Route>
       </Switch>
-    </>
   );
 }

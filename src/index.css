@@ -2,11 +2,18 @@
 /* contains all the theme related stylings */
 
 :root{
+
+  /* the theme for the design */
+  --nav-bg: #363636;
   --wide: 1366px;
 }
 
 
 
+
+.bg-nav{
+  background-color: var(--nav-bg);
+}
 
 .max-wide{
   max-width: var(--wide);
