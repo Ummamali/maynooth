@@ -1,16 +1,19 @@
 /* This stylesheet is specific to Home screen  */
 
-.showcase{
-  background: url('../../../media/home-showcase.jpg') no-repeat;
+.showcase {
+  background: url("../../../media/home-showcase.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
 }
-.showcase  > :not(.overlay){
+.showcase h1 {
+  color: var(--showcase-text);
+}
+.showcase > :not(.overlay) {
   z-index: 10;
   position: relative;
 }
-.showcase .overlay{
-  content: '';
+.showcase .overlay {
+  content: "";
   width: 100vw;
   height: 100vh;
   background-color: black;
@@ -21,12 +24,12 @@
   left: 0px;
 }
 
-.showcase .dummySearch{
-  width: 720px;
+.showcase .dummySearch {
+  width: 520px;
   transition: all 200ms ease-in;
 }
 
-.showcase input::placeholder{
+.showcase input::placeholder {
   font-weight: 300;
   opacity: 0.6;
 }
